@@ -5,6 +5,8 @@ This is a Flask api, stocks-api-ab-nk, that receives a pull request from TD Amer
 ### TODO - @Ale can you add step-by-step instructions for downloading the data?
 
 Data requested from TD Ameritrade will include historic price data.
+https://developer.tdameritrade.com/price-history/apis/get/marketdata/%7Bsymbol%7D/pricehistory
+https://developer.tdameritrade.com/content/getting-started
 
 The data is stored in a PostgreSQL database along with the pull instructions.
 
