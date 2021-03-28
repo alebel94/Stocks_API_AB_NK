@@ -1,0 +1,21 @@
+-e .
+numpy
+pandas
+matplotlib
+sqlalchemy
+yapf
+sklearn
+bs4
+ipykernel
+flask
+Flask-WTF
+flask-sqlalchemy
+flask-migrate
+wtforms
+gunicorn
+locust
+h5py
+graphviz
+seaborn
+pytest
+# Later Deep Learning

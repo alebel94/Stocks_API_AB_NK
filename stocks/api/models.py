@@ -1,4 +1,4 @@
-from stocks_api import app, db
+from stocks.api import app, db
 import uuid
 from datetime import datetime
 

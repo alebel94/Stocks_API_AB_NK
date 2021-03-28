@@ -1,7 +1,7 @@
-from stocks_api import app, db
+from stocks.api import app, db
 from flask import render_template, request, redirect, url_for
-from stocks_api.forms import UserLoginForm
-from stocks_api.models import User
+from stocks.api.forms import UserLoginForm
+from stocks.api.models import User
 
 @app.route('/')
 def home():

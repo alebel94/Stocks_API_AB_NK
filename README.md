@@ -1,6 +1,6 @@
 # stocks-api-ab-nk
 
-This is a Flask api, stocks-api-ab-nk, that recieves a pull request from TD Ameritrade's API.
+This is a Flask api, stocks-api-ab-nk, that receives a pull request from TD Ameritrade's API.
 
 Data requested from TD Ameritrade will include historic price data.
 
@@ -12,3 +12,15 @@ The data is saved for each user and the data can be downloaded whenever.
 
 The app is deployed via Heroku.
 
+### Initialization
+
+1. Create your own virtualenvironment, or use a virtualenv of your choice.
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+2. Install project requirements
+
+`pip install -r requirements.txt`
