@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Stocks API"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="../../static/css/styles.css">
+<title>Stocks API AB NK</title>
+</head>
+<body>
+    <!--NavBar here-->
+    <div class="container">
+        <nav class="ct-nav">
+            <!--Nav Items-->
+            <div>
+                <h4>Stocks API</h4>
+            </div>
+            <div>
+                <ul id="horizontal-list">
+                    <a href="">
+                        <li>Stock Data</li>
+                    </a>
+                    <a href=>
+                        <li>Profile</li>
+                    </a>
+                    <a href=>
+                        <li>Log Out</li>
+                    </a>
+                    <a href="{{ url_for('signin') }}">
+                        <li>Sign In</li>
+                    </a>
+                    <a href="{{ url_for('signup') }}">
+                        <li>Sign Up Free</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        
+        {% block content %}
+
+        {% endblock content %}
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+</body>
+</html>

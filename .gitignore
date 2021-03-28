@@ -1,0 +1,5 @@
+# .vscode
+# stocks-env
+# __pycache__
+.env
+# migrations
